@@ -1,0 +1,11 @@
+.md-unstyled-image img{
+  max-width: 100%;
+  width: auto;
+  height: 63 !important; /* needs to be important because md-card also sets it that way */\
+  align-content: center
+}
+
+.md-unstyled-image{
+     width: auto;
+     height:auto;
+}

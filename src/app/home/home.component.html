@@ -1,0 +1,30 @@
+<div id="facebook-Bar">
+  <div id="facebook-Frame">
+    <div id="logo1"> <a href="http://localhost:4200/">MyFacebook</a> 
+    
+    </div>
+   
+    
+    <div id="header-main-right">
+      <div id="header-main-left-nav">
+        <input type="text" (keydown)="search($event)" placeholder="search friends..." class="input">
+      </div>
+    </div>
+    <div id="header-profile-img-right">
+       <img src="./assets/profile.jpg" class="img-circle person" alt="Random Name" width="40" height="40">
+       <span>Surya Arigela</span>
+
+       
+    </div>
+    <div id="header-profile-right">
+        <img src="./assets/friends.png" class="img-circle person" alt="Random Name" width="25" height="25">
+        <img src="./assets/messages.png" class="img-circle person" alt="Random Name" width="25" height="25">
+    </div>
+  </div>
+</div>
+<div id="facebook-left-menu">
+  <app-left-menu></app-left-menu>
+</div>
+<div id="facebook-body-menu"  style="overflow: scroll" >
+  <app-body></app-body>
+</div>
